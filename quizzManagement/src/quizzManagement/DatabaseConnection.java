@@ -5,9 +5,9 @@ import java.sql.SQLException;
 
 public class DatabaseConnection {
     // Database credentials
-    private static final String URL = "jdbc:postgresql://localhost:5432/Quiz_Management"; // Update with your database name
-    private static final String USER = "postgres"; // Your PostgreSQL username
-    private static final String PASSWORD = "123456789"; // Your PostgreSQL password
+    private static final String URL = "jdbc:postgresql://localhost:5432/Quiz_Management"; // database name
+    private static final String USER = "postgres"; // PostgreSQL username
+    private static final String PASSWORD = "123456789"; // PostgreSQL password
 
     // Method to establish database connection
     public static Connection getConnection() throws SQLException {
